@@ -2,6 +2,7 @@ package com.star.demo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -44,6 +45,7 @@ public class CreateGestureActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_create_gesture);
+		Log.e("ss","sss");
 		ButterKnife.bind(this);
 		this.init();
 	}
